@@ -1,1 +1,2 @@
 # Fitness_spider
+D:\Program Files\python2714\Scripts\;D:\Program Files\python2714\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%ANDROID_HOME%\tools;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\
