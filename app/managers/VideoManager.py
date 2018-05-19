@@ -1,6 +1,7 @@
 # -*- utf-8 -*-
 
-import urllib2;
+# import urllib2;
+import re;
 from app.vo.VideoVo import Video;
 
 class VideoManager:
@@ -31,9 +32,13 @@ class VideoManager:
         firstIndex = url.index("//") + 2;
         secondIndex = url.index("/", 8);
         self.type = url[firstIndex:secondIndex];
-        req = urllib2.Request(url);
-        re = urllib2.urlopen(req);
-        html = re.read();
+        # req = urllib2.Request(url);
+        # response = urllib2.urlopen(req);
+        # html = response.read();
+        # print html;
+        reg = re.compile(r'<video style=".*" webkit-playsinline="" x-webkit-airplay="" preload="auto" data-role="txp_video_tag" src="(.*?)"></video>',re.S)
+        # result = re.findall(reg, html);
+        # print result;
 
 
     def pushIntoPath(self, videoVo):
